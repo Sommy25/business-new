@@ -1,0 +1,116 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    z-index: 10;
+}
+:root{
+   --primary-color: #2A3BA9;
+   --text-colr:white;
+}
+body{
+    color: var(--text-colr) ;
+}
+/* Navbar */
+button{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+}
+body{
+    font-family: "Montserrat";
+    background: var(--primary-color); 
+}
+nav, .links, .side{
+    display: flex;
+}
+.logo{
+    color: black;
+}
+nav{
+    padding: 1rem 1rem;
+    background: white;
+    justify-content: space-between;
+}
+.side{
+    display: flex;
+    align-items:center;
+}
+.line{
+    width: 1px;
+    height: 20px;
+    background: black;
+    display: flex;
+
+}
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 1remf;
+}
+.linksgap{
+    display: flex;
+    gap: 2rem;
+}
+.links, .linksgap, .left, .right{
+    display: flex;
+    align-items: center;    
+    gap: 2rem;
+}
+.side{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+/* hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+/* Hero Text */
+.hero h1{
+    margin-top: 7rem;
+    font-weight: 400;
+    font-size: 5.5rem;
+    line-height: 6rem;
+}
+.texts p{
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+.texts button{
+    margin-top: 1rem;
+    background: var(--text-colr);
+    color: black;
+    font-size:22px;
+    font-weight: 500;
+}
+.small{
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+/* 1st Part */
+.first{
+    padding: 0 10rem;
+    background: white;
+    padding-top: 5rem;
+    color: black;
+}
+.first h2{
+    font-size:  4rem;
+    font-weight: 400;
+    color: black;
+    line-height: 5rem;
+}
+.horiz{
+    
+}
