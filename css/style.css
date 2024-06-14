@@ -197,6 +197,6 @@ nav{
     padding: 1rem 2rem;
     margin-top: 3rem;
 }
-.cont{
-    justify-content: center ;
+.last button{
+    margin-left: 25rem;
 }
