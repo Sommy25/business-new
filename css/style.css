@@ -177,3 +177,26 @@ nav{
     padding: 1rem 2rem;
     margin-top: 3rem;
 }
+.last{
+    display: flex;
+    background: #C19BF8;
+    color: black;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.last p{
+    font-size: 3.8rem;
+}
+.last button{
+    color: white;
+    background: black;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+}
+.cont{
+    justify-content: center ;
+}
